@@ -1,0 +1,373 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'discord.js'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v12.19.0
+4 verbose npm-session f61c7057b0e49d4b
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/discord.js 238ms (from cache)
+8 silly pacote tag manifest for discord.js@latest fetched in 285ms
+9 timing stage:loadCurrentTree Completed in 325ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 0ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule discord.js@12.3.1 checking installable status
+17 http fetch GET 304 https://registry.npmjs.org/@discordjs%2fcollection 99ms (from cache)
+18 silly pacote range manifest for @discordjs/collection@^0.1.6 fetched in 104ms
+19 silly resolveWithNewModule @discordjs/collection@0.1.6 checking installable status
+20 http fetch GET 304 https://registry.npmjs.org/abort-controller 170ms (from cache)
+21 silly pacote range manifest for abort-controller@^3.0.0 fetched in 173ms
+22 silly resolveWithNewModule abort-controller@3.0.0 checking installable status
+23 http fetch GET 304 https://registry.npmjs.org/tweetnacl 173ms (from cache)
+24 http fetch GET 304 https://registry.npmjs.org/prism-media 177ms (from cache)
+25 http fetch GET 304 https://registry.npmjs.org/ws 173ms (from cache)
+26 silly pacote range manifest for tweetnacl@^1.0.3 fetched in 183ms
+27 silly resolveWithNewModule tweetnacl@1.0.3 checking installable status
+28 silly pacote range manifest for prism-media@^1.2.2 fetched in 185ms
+29 silly resolveWithNewModule prism-media@1.2.2 checking installable status
+30 silly pacote range manifest for ws@^7.3.1 fetched in 182ms
+31 silly resolveWithNewModule ws@7.3.1 checking installable status
+32 http fetch GET 304 https://registry.npmjs.org/@discordjs%2fform-data 202ms (from cache)
+33 http fetch GET 304 https://registry.npmjs.org/node-fetch 201ms (from cache)
+34 silly pacote range manifest for @discordjs/form-data@^3.0.1 fetched in 206ms
+35 silly resolveWithNewModule @discordjs/form-data@3.0.1 checking installable status
+36 silly pacote range manifest for node-fetch@^2.6.0 fetched in 205ms
+37 silly resolveWithNewModule node-fetch@2.6.1 checking installable status
+38 http fetch GET 304 https://registry.npmjs.org/setimmediate 204ms (from cache)
+39 silly pacote range manifest for setimmediate@^1.0.5 fetched in 206ms
+40 silly resolveWithNewModule setimmediate@1.0.5 checking installable status
+41 http fetch GET 304 https://registry.npmjs.org/asynckit 64ms (from cache)
+42 http fetch GET 304 https://registry.npmjs.org/combined-stream 64ms (from cache)
+43 silly pacote range manifest for asynckit@^0.4.0 fetched in 66ms
+44 silly resolveWithNewModule asynckit@0.4.0 checking installable status
+45 silly pacote range manifest for combined-stream@^1.0.8 fetched in 67ms
+46 silly resolveWithNewModule combined-stream@1.0.8 checking installable status
+47 http fetch GET 304 https://registry.npmjs.org/mime-types 76ms (from cache)
+48 silly pacote range manifest for mime-types@^2.1.12 fetched in 78ms
+49 silly resolveWithNewModule mime-types@2.1.27 checking installable status
+50 http fetch GET 304 https://registry.npmjs.org/delayed-stream 53ms (from cache)
+51 silly pacote range manifest for delayed-stream@~1.0.0 fetched in 54ms
+52 silly resolveWithNewModule delayed-stream@1.0.0 checking installable status
+53 http fetch GET 304 https://registry.npmjs.org/mime-db 55ms (from cache)
+54 silly pacote version manifest for mime-db@1.44.0 fetched in 58ms
+55 silly resolveWithNewModule mime-db@1.44.0 checking installable status
+56 http fetch GET 304 https://registry.npmjs.org/event-target-shim 52ms (from cache)
+57 silly pacote range manifest for event-target-shim@^5.0.0 fetched in 54ms
+58 silly resolveWithNewModule event-target-shim@5.0.1 checking installable status
+59 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 474ms
+60 timing stage:loadIdealTree Completed in 481ms
+61 silly currentTree secondbot
+62 silly idealTree secondbot
+62 silly idealTree +-- @discordjs/collection@0.1.6
+62 silly idealTree +-- @discordjs/form-data@3.0.1
+62 silly idealTree +-- abort-controller@3.0.0
+62 silly idealTree +-- asynckit@0.4.0
+62 silly idealTree +-- combined-stream@1.0.8
+62 silly idealTree +-- delayed-stream@1.0.0
+62 silly idealTree +-- discord.js@12.3.1
+62 silly idealTree +-- event-target-shim@5.0.1
+62 silly idealTree +-- mime-db@1.44.0
+62 silly idealTree +-- mime-types@2.1.27
+62 silly idealTree +-- node-fetch@2.6.1
+62 silly idealTree +-- prism-media@1.2.2
+62 silly idealTree +-- setimmediate@1.0.5
+62 silly idealTree +-- tweetnacl@1.0.3
+62 silly idealTree `-- ws@7.3.1
+63 silly install generateActionsToTake
+64 timing stage:generateActionsToTake Completed in 9ms
+65 silly diffTrees action count 15
+66 silly diffTrees add asynckit@0.4.0
+67 silly diffTrees add delayed-stream@1.0.0
+68 silly diffTrees add combined-stream@1.0.8
+69 silly diffTrees add event-target-shim@5.0.1
+70 silly diffTrees add mime-db@1.44.0
+71 silly diffTrees add mime-types@2.1.27
+72 silly diffTrees add @discordjs/collection@0.1.6
+73 silly diffTrees add @discordjs/form-data@3.0.1
+74 silly diffTrees add abort-controller@3.0.0
+75 silly diffTrees add node-fetch@2.6.1
+76 silly diffTrees add prism-media@1.2.2
+77 silly diffTrees add setimmediate@1.0.5
+78 silly diffTrees add tweetnacl@1.0.3
+79 silly diffTrees add ws@7.3.1
+80 silly diffTrees add discord.js@12.3.1
+81 silly decomposeActions action count 120
+82 silly decomposeActions fetch asynckit@0.4.0
+83 silly decomposeActions extract asynckit@0.4.0
+84 silly decomposeActions preinstall asynckit@0.4.0
+85 silly decomposeActions build asynckit@0.4.0
+86 silly decomposeActions install asynckit@0.4.0
+87 silly decomposeActions postinstall asynckit@0.4.0
+88 silly decomposeActions finalize asynckit@0.4.0
+89 silly decomposeActions refresh-package-json asynckit@0.4.0
+90 silly decomposeActions fetch delayed-stream@1.0.0
+91 silly decomposeActions extract delayed-stream@1.0.0
+92 silly decomposeActions preinstall delayed-stream@1.0.0
+93 silly decomposeActions build delayed-stream@1.0.0
+94 silly decomposeActions install delayed-stream@1.0.0
+95 silly decomposeActions postinstall delayed-stream@1.0.0
+96 silly decomposeActions finalize delayed-stream@1.0.0
+97 silly decomposeActions refresh-package-json delayed-stream@1.0.0
+98 silly decomposeActions fetch combined-stream@1.0.8
+99 silly decomposeActions extract combined-stream@1.0.8
+100 silly decomposeActions preinstall combined-stream@1.0.8
+101 silly decomposeActions build combined-stream@1.0.8
+102 silly decomposeActions install combined-stream@1.0.8
+103 silly decomposeActions postinstall combined-stream@1.0.8
+104 silly decomposeActions finalize combined-stream@1.0.8
+105 silly decomposeActions refresh-package-json combined-stream@1.0.8
+106 silly decomposeActions fetch event-target-shim@5.0.1
+107 silly decomposeActions extract event-target-shim@5.0.1
+108 silly decomposeActions preinstall event-target-shim@5.0.1
+109 silly decomposeActions build event-target-shim@5.0.1
+110 silly decomposeActions install event-target-shim@5.0.1
+111 silly decomposeActions postinstall event-target-shim@5.0.1
+112 silly decomposeActions finalize event-target-shim@5.0.1
+113 silly decomposeActions refresh-package-json event-target-shim@5.0.1
+114 silly decomposeActions fetch mime-db@1.44.0
+115 silly decomposeActions extract mime-db@1.44.0
+116 silly decomposeActions preinstall mime-db@1.44.0
+117 silly decomposeActions build mime-db@1.44.0
+118 silly decomposeActions install mime-db@1.44.0
+119 silly decomposeActions postinstall mime-db@1.44.0
+120 silly decomposeActions finalize mime-db@1.44.0
+121 silly decomposeActions refresh-package-json mime-db@1.44.0
+122 silly decomposeActions fetch mime-types@2.1.27
+123 silly decomposeActions extract mime-types@2.1.27
+124 silly decomposeActions preinstall mime-types@2.1.27
+125 silly decomposeActions build mime-types@2.1.27
+126 silly decomposeActions install mime-types@2.1.27
+127 silly decomposeActions postinstall mime-types@2.1.27
+128 silly decomposeActions finalize mime-types@2.1.27
+129 silly decomposeActions refresh-package-json mime-types@2.1.27
+130 silly decomposeActions fetch @discordjs/collection@0.1.6
+131 silly decomposeActions extract @discordjs/collection@0.1.6
+132 silly decomposeActions preinstall @discordjs/collection@0.1.6
+133 silly decomposeActions build @discordjs/collection@0.1.6
+134 silly decomposeActions install @discordjs/collection@0.1.6
+135 silly decomposeActions postinstall @discordjs/collection@0.1.6
+136 silly decomposeActions finalize @discordjs/collection@0.1.6
+137 silly decomposeActions refresh-package-json @discordjs/collection@0.1.6
+138 silly decomposeActions fetch @discordjs/form-data@3.0.1
+139 silly decomposeActions extract @discordjs/form-data@3.0.1
+140 silly decomposeActions preinstall @discordjs/form-data@3.0.1
+141 silly decomposeActions build @discordjs/form-data@3.0.1
+142 silly decomposeActions install @discordjs/form-data@3.0.1
+143 silly decomposeActions postinstall @discordjs/form-data@3.0.1
+144 silly decomposeActions finalize @discordjs/form-data@3.0.1
+145 silly decomposeActions refresh-package-json @discordjs/form-data@3.0.1
+146 silly decomposeActions fetch abort-controller@3.0.0
+147 silly decomposeActions extract abort-controller@3.0.0
+148 silly decomposeActions preinstall abort-controller@3.0.0
+149 silly decomposeActions build abort-controller@3.0.0
+150 silly decomposeActions install abort-controller@3.0.0
+151 silly decomposeActions postinstall abort-controller@3.0.0
+152 silly decomposeActions finalize abort-controller@3.0.0
+153 silly decomposeActions refresh-package-json abort-controller@3.0.0
+154 silly decomposeActions fetch node-fetch@2.6.1
+155 silly decomposeActions extract node-fetch@2.6.1
+156 silly decomposeActions preinstall node-fetch@2.6.1
+157 silly decomposeActions build node-fetch@2.6.1
+158 silly decomposeActions install node-fetch@2.6.1
+159 silly decomposeActions postinstall node-fetch@2.6.1
+160 silly decomposeActions finalize node-fetch@2.6.1
+161 silly decomposeActions refresh-package-json node-fetch@2.6.1
+162 silly decomposeActions fetch prism-media@1.2.2
+163 silly decomposeActions extract prism-media@1.2.2
+164 silly decomposeActions preinstall prism-media@1.2.2
+165 silly decomposeActions build prism-media@1.2.2
+166 silly decomposeActions install prism-media@1.2.2
+167 silly decomposeActions postinstall prism-media@1.2.2
+168 silly decomposeActions finalize prism-media@1.2.2
+169 silly decomposeActions refresh-package-json prism-media@1.2.2
+170 silly decomposeActions fetch setimmediate@1.0.5
+171 silly decomposeActions extract setimmediate@1.0.5
+172 silly decomposeActions preinstall setimmediate@1.0.5
+173 silly decomposeActions build setimmediate@1.0.5
+174 silly decomposeActions install setimmediate@1.0.5
+175 silly decomposeActions postinstall setimmediate@1.0.5
+176 silly decomposeActions finalize setimmediate@1.0.5
+177 silly decomposeActions refresh-package-json setimmediate@1.0.5
+178 silly decomposeActions fetch tweetnacl@1.0.3
+179 silly decomposeActions extract tweetnacl@1.0.3
+180 silly decomposeActions preinstall tweetnacl@1.0.3
+181 silly decomposeActions build tweetnacl@1.0.3
+182 silly decomposeActions install tweetnacl@1.0.3
+183 silly decomposeActions postinstall tweetnacl@1.0.3
+184 silly decomposeActions finalize tweetnacl@1.0.3
+185 silly decomposeActions refresh-package-json tweetnacl@1.0.3
+186 silly decomposeActions fetch ws@7.3.1
+187 silly decomposeActions extract ws@7.3.1
+188 silly decomposeActions preinstall ws@7.3.1
+189 silly decomposeActions build ws@7.3.1
+190 silly decomposeActions install ws@7.3.1
+191 silly decomposeActions postinstall ws@7.3.1
+192 silly decomposeActions finalize ws@7.3.1
+193 silly decomposeActions refresh-package-json ws@7.3.1
+194 silly decomposeActions fetch discord.js@12.3.1
+195 silly decomposeActions extract discord.js@12.3.1
+196 silly decomposeActions preinstall discord.js@12.3.1
+197 silly decomposeActions build discord.js@12.3.1
+198 silly decomposeActions install discord.js@12.3.1
+199 silly decomposeActions postinstall discord.js@12.3.1
+200 silly decomposeActions finalize discord.js@12.3.1
+201 silly decomposeActions refresh-package-json discord.js@12.3.1
+202 silly install executeActions
+203 silly doSerial global-install 120
+204 verbose correctMkdir C:\Users\Taylor\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+205 verbose makeCacheDir UID & GID are irrelevant on win32
+206 verbose lock using C:\Users\Taylor\AppData\Roaming\npm-cache\_locks\staging-08148584a4be611a.lock for C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging
+207 silly doParallel extract 15
+208 silly extract asynckit@0.4.0
+209 silly extract delayed-stream@1.0.0
+210 silly extract combined-stream@1.0.8
+211 silly extract event-target-shim@5.0.1
+212 silly extract mime-db@1.44.0
+213 silly extract mime-types@2.1.27
+214 silly extract @discordjs/collection@0.1.6
+215 silly extract @discordjs/form-data@3.0.1
+216 silly extract abort-controller@3.0.0
+217 silly extract node-fetch@2.6.1
+218 silly extract prism-media@1.2.2
+219 silly extract setimmediate@1.0.5
+220 silly extract tweetnacl@1.0.3
+221 silly extract ws@7.3.1
+222 silly extract discord.js@12.3.1
+223 silly tarball trying asynckit@^0.4.0 by hash: sha1-x57Zf380y48robyXkLzDZkdLS3k=
+224 silly tarball trying delayed-stream@~1.0.0 by hash: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+225 silly tarball trying combined-stream@^1.0.8 by hash: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
+226 silly tarball trying event-target-shim@^5.0.0 by hash: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
+227 silly tarball trying mime-db@1.44.0 by hash: sha512-/NOTfLrsPBVeH7YtFPgsVWveuL+4SjjYxaQ1xtM1KMFj7HdxlBlxeyNLzhyJVx7r4rZGJAZ/6lkKCitSc/Nmpg==
+228 silly tarball trying mime-types@^2.1.12 by hash: sha512-JIhqnCasI9yD+SsmkquHBxTSEuZdQX5BuQnS2Vc7puQQQ+8yiP5AY5uWhpdv4YL4VM5c6iliiYWPgJ/nJQLp7w==
+229 silly tarball trying @discordjs/collection@^0.1.6 by hash: sha512-utRNxnd9kSS2qhyivo9lMlt5qgAUasH2gb7BEOn6p0efFh24gjGomHzWKMAPn2hEReOPQZCJaRKoURwRotKucQ==
+230 silly tarball trying @discordjs/form-data@^3.0.1 by hash: sha512-ZfFsbgEXW71Rw/6EtBdrP5VxBJy4dthyC0tpQKGKmYFImlmmrykO14Za+BiIVduwjte0jXEBlhSKf0MWbFp9Eg==
+231 silly tarball trying abort-controller@^3.0.0 by hash: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==
+232 silly tarball trying node-fetch@^2.6.0 by hash: sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
+233 silly tarball trying prism-media@^1.2.2 by hash: sha512-I+nkWY212lJ500jLe4tN9tWO7nRiBAVdMv76P9kffZjYhw20raMlW1HSSvS+MLXC9MmbNZCazMrAr+5jEEgTuw==
+234 silly tarball trying setimmediate@^1.0.5 by hash: sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=
+235 silly tarball trying tweetnacl@^1.0.3 by hash: sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==
+236 silly tarball trying ws@^7.3.1 by hash: sha512-D3RuNkynyHmEJIpD2qrgVkc9DQ23OrN/moAwZX4L8DfvszsJxpjQuUq3LMx6HoYji9fbIOBY18XWBsAux1ZZUA==
+237 silly tarball trying discord.js@latest by hash: sha512-mSFyV/mbvzH12UXdS4zadmeUf8IMQOo/YdunubG1wWt1xjWvtaJz/s9CGsFD2B5pTw1W/LXxxUbrQjIZ/xlUdw==
+238 silly extract setimmediate@^1.0.5 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\setimmediate-3ff5ae7a (147ms)
+239 silly extract mime-types@^2.1.12 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\mime-types-30d8de63 (154ms)
+240 silly extract combined-stream@^1.0.8 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\combined-stream-8ec46ed6 (163ms)
+241 silly extract delayed-stream@~1.0.0 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\delayed-stream-162db337 (165ms)
+242 silly extract @discordjs/collection@^0.1.6 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\@discordjs\collection-48a0a85e (168ms)
+243 silly extract @discordjs/form-data@^3.0.1 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\@discordjs\form-data-b6fe49fe (175ms)
+244 silly extract mime-db@1.44.0 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\mime-db-f5ea77fd (191ms)
+245 silly extract abort-controller@^3.0.0 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\abort-controller-8af643f1 (194ms)
+246 silly extract tweetnacl@^1.0.3 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\tweetnacl-4aefbe56 (199ms)
+247 silly extract event-target-shim@^5.0.0 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\event-target-shim-b29b1f32 (204ms)
+248 silly extract node-fetch@^2.6.0 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\node-fetch-c94da38d (201ms)
+249 silly extract asynckit@^0.4.0 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\asynckit-314b88c9 (205ms)
+250 silly extract ws@^7.3.1 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\ws-60c97b8b (205ms)
+251 silly extract prism-media@^1.2.2 extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\prism-media-53271585 (224ms)
+252 timing audit submit Completed in 379ms
+253 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 379ms
+254 timing audit body Completed in 1ms
+255 silly extract discord.js@latest extracted to C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging\discord.js-2ca49355 (384ms)
+256 timing action:extract Completed in 392ms
+257 silly doReverseSerial unbuild 120
+258 silly doSerial remove 120
+259 silly doSerial move 120
+260 silly doSerial finalize 120
+261 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\asynckit
+262 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\delayed-stream
+263 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\combined-stream
+264 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\event-target-shim
+265 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\mime-db
+266 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\mime-types
+267 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\@discordjs\collection
+268 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\@discordjs\form-data
+269 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\abort-controller
+270 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\node-fetch
+271 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\prism-media
+272 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate
+273 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\tweetnacl
+274 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\ws
+275 silly finalize C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\discord.js
+276 timing action:finalize Completed in 108ms
+277 silly doParallel refresh-package-json 15
+278 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\asynckit
+279 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\delayed-stream
+280 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\combined-stream
+281 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\event-target-shim
+282 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\mime-db
+283 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\mime-types
+284 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\@discordjs\collection
+285 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\@discordjs\form-data
+286 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\abort-controller
+287 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\node-fetch
+288 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\prism-media
+289 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate
+290 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\tweetnacl
+291 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\ws
+292 silly refresh-package-json C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\discord.js
+293 timing action:refresh-package-json Completed in 123ms
+294 verbose unlock done using C:\Users\Taylor\AppData\Roaming\npm-cache\_locks\staging-08148584a4be611a.lock for C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\.staging
+295 timing stage:rollbackFailedOptional Completed in 78ms
+296 timing stage:runTopLevelLifecycles Completed in 1543ms
+297 silly saveTree secondbot
+297 silly saveTree `-- discord.js@12.3.1
+297 silly saveTree   +-- @discordjs/collection@0.1.6
+297 silly saveTree   +-- @discordjs/form-data@3.0.1
+297 silly saveTree   | +-- asynckit@0.4.0
+297 silly saveTree   | +-- combined-stream@1.0.8
+297 silly saveTree   | | `-- delayed-stream@1.0.0
+297 silly saveTree   | `-- mime-types@2.1.27
+297 silly saveTree   |   `-- mime-db@1.44.0
+297 silly saveTree   +-- abort-controller@3.0.0
+297 silly saveTree   | `-- event-target-shim@5.0.1
+297 silly saveTree   +-- node-fetch@2.6.1
+297 silly saveTree   +-- prism-media@1.2.2
+297 silly saveTree   +-- setimmediate@1.0.5
+297 silly saveTree   +-- tweetnacl@1.0.3
+297 silly saveTree   `-- ws@7.3.1
+298 warn enoent ENOENT: no such file or directory, open 'C:\Users\Taylor\Documents\projects\compendium\js\secondbot\package.json'
+299 verbose enoent This is related to npm not being able to find a file.
+300 warn secondbot No description
+301 warn secondbot No repository field.
+302 warn secondbot No README data
+303 warn secondbot No license field.
+304 verbose stack Error: EPERM: operation not permitted, rename 'C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate\package.json.3260239216' -> 'C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate\package.json'
+305 verbose cwd C:\Users\Taylor\Documents\projects\compendium\js\secondbot
+306 verbose Windows_NT 10.0.19041
+307 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "discord.js"
+308 verbose node v12.19.0
+309 verbose npm  v6.14.8
+310 error code EPERM
+311 error syscall rename
+312 error path C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate\package.json.3260239216
+313 error dest C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate\package.json
+314 error errno -4048
+315 error Error: EPERM: operation not permitted, rename 'C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate\package.json.3260239216' -> 'C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate\package.json'
+315 error  [OperationalError: EPERM: operation not permitted, rename 'C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate\package.json.3260239216' -> 'C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate\package.json'] {
+315 error   cause: [Error: EPERM: operation not permitted, rename 'C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate\package.json.3260239216' -> 'C:\Users\Taylor\Documents\projects\compendium\js\secondbot\node_modules\setimmediate\package.json'] {
+315 error     errno: -4048,
+315 error     code: 'EPERM',
+315 error     syscall: 'rename',
+315 error     path: 'C:\\Users\\Taylor\\Documents\\projects\\compendium\\js\\secondbot\\node_modules\\setimmediate\\package.json.3260239216',
+315 error     dest: 'C:\\Users\\Taylor\\Documents\\projects\\compendium\\js\\secondbot\\node_modules\\setimmediate\\package.json'
+315 error   },
+315 error   errno: -4048,
+315 error   code: 'EPERM',
+315 error   syscall: 'rename',
+315 error   path: 'C:\\Users\\Taylor\\Documents\\projects\\compendium\\js\\secondbot\\node_modules\\setimmediate\\package.json.3260239216',
+315 error   dest: 'C:\\Users\\Taylor\\Documents\\projects\\compendium\\js\\secondbot\\node_modules\\setimmediate\\package.json'
+315 error }
+316 error The operation was rejected by your operating system.
+316 error It's possible that the file was already in use (by a text editor or antivirus),
+316 error or that you lack permissions to access it.
+316 error
+316 error If you believe this might be a permissions issue, please double-check the
+316 error permissions of the file and its containing directories, or try running
+316 error the command again as root/Administrator.
+317 verbose exit [ -4048, true ]
